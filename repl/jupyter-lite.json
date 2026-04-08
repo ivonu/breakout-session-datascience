@@ -10,7 +10,6 @@
     "pyodidePackages": [
       "pandas",
       "numpy",
-      "matplotlib",
-      "seaborn"
+      "matplotlib"
     ]
   }
