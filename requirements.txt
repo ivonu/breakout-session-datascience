@@ -10,3 +10,5 @@ jupyterlite-pyodide-kernel==0.6.1
 jupyterlab-night
 # JupyterLab: Miami nights theme (optional)
 jupyterlab_miami_nights
+
+seaborn
