@@ -6,6 +6,11 @@
         "jupyterlab-kernel-spy",
         "jupyterlab-tour"
       ]
-    }
+    },
+    "pyodidePackages": [
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "seaborn"
+    ]
   }
-  
