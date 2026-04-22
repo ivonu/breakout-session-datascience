@@ -10,7 +10,7 @@ jupyterlite-pyodide-kernel==0.7.0
 jupyterlab-night
 
 jupyterlab_execute_time
-jupyterlab_variableinspector
+lckr_jupyterlab_variableinspector
 
 # Data generation
 faker==24.4.0
