@@ -1,37 +1,26 @@
-# JupyterLite Demo
+# Banking Data Science Workshop
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+This repository contains comprehensive banking database schema documentation and Python generators for creating realistic test data, perfect for data science and analytics workshops.
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+## 🏦 Banking Database Project
 
-## ✨ Try it in your browser ✨
+Complete banking database implementation with:
 
-➡️ **https://jupyterlite.github.io/demo**
+- **📋 Schema Documentation** - Comprehensive database design with tables, relationships, and views
+- **🐍 Python Generators** - Scripts to create SQLite databases with realistic sample data  
+- **📊 Sample Data** - Ready-to-use banking data for analysis and learning
+- **🔍 SQL Examples** - Common queries and analytics patterns
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+### Quick Start
 
-## Requirements
+1. **Generate Database**: `python generate_banking_db.py`
+2. **View Documentation**: Check `content/doc/` for complete schema docs
+3. **Explore Data**: Use generated SQLite database for analysis
 
-JupyterLite is being tested against modern web browsers:
+### Key Features
 
-- Firefox 90+
-- Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
-
-This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), the JavaScript kernel (`jupyterlite-javascript-kernel`), and the p5 kernel (`jupyterlite-p5-kernel`), along with other
-optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
-[`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
-
-For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
-
-
+- ✅ **Single Source of Truth**: Schema defined in SQL files, used by generators
+- ✅ **Realistic Data**: Customers, accounts, cards, and transactions with proper relationships
+- ✅ **Analytics Workshop**: Complete pandas/matplotlib tutorial with banking data
+- ✅ **Performance Optimized**: Indexes and views for common query patterns
+- ✅ **Educational**: Perfect for SQL learning and data analytics practice
